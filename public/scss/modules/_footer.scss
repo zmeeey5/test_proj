@@ -1,0 +1,33 @@
+// Footer block style
+
+.main-footer { // Footer fixed to bottom
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: var('footer-height', 'xsmall');
+  
+  @media (min-width: $small-screen) {
+    .main-footer {
+      min-height: var('footer-height', 'small');
+    }
+  }
+  
+  @media (min-width: $medium-screen) {
+    .main-footer {
+      min-height: var('footer-height', 'medium');
+    }
+  }
+  
+  @media (min-width: $large-screen) {
+    .main-footer {
+      min-height: var('footer-height', 'large');
+    }
+  }
+  
+  @media (min-width: $xlarge-screen) {
+    .main-footer {
+      min-height: var('footer-height', 'xlarge');
+    }
+  }
+}

@@ -1,0 +1,173 @@
+// Tables colors - transfer into 'utilities/colors.scss' file for project
+$table-border   : $base-border;
+$table-bg       : lighten(color('default','light-grey'), 20%);
+$table-bg-hover : lighten(color('default','light-grey'), 10%);
+$table-caption  : color('default','grey');
+// ----------------------
+
+// Tables style
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption {
+  color: $table-caption;
+  text-align: right;
+  @include em(padding-top, 8px);
+  @include em(padding-bottom, 8px);
+}
+
+td, th {
+  text-align: left;
+  vertical-align: middle;
+  @include em(padding, 8px);
+}
+
+td {
+  border-top: 1px solid $table-border;
+}
+
+thead {
+  th {
+    border-top: 1px solid $table-border;
+    border-bottom: 2px solid $table-border;
+    vertical-align: bottom;
+  }
+}
+
+tfoot {
+  th {
+    border-top: 2px solid $table-border;
+    border-bottom: 1px solid $table-border;
+  }
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  display: table;
+
+  // block formatting
+  &-caption {
+    display: table-caption;
+    color: $table-caption;
+    text-align: right;
+    @include em(padding-top, 8px);
+    @include em(padding-bottom, 8px);
+  }
+
+  &-row {
+    display: table-row;
+  }
+
+  &-cell {
+    display: table-cell;
+    border-top: 1px solid $table-border;
+    @include em(padding, 8px);
+  }
+
+  &-head {
+    display: table-header-group;
+
+    .table-cell {
+      font-weight: 700;
+      border-top: 1px solid $table-border;
+      border-bottom: 1px solid $table-border;
+    }
+  }
+
+  &-body {
+    display: table-row-group;
+  }
+
+  &-foot {
+    display: table-footer-group;
+
+    .table-cell {
+      font-weight: 700;
+      border-top: 2px solid $table-border;
+      border-bottom: 1px solid $table-border;
+    }
+  }
+
+  // table formatting
+  &.striped {
+    tbody {
+      tr:nth-child(2n + 1) {
+        td {
+          background: $table-bg;
+        }
+      }
+    }
+
+    .table-body {
+      .table-row:nth-child(2n + 1) {
+        .table-cell {
+          background: $table-bg;
+        }
+      }
+    }
+  }
+
+  &.bordered {
+    border: 1px solid $table-border;
+
+    th {
+      border-left: 1px solid $table-border;
+      border-right: 1px solid $table-border;
+    }
+
+    td {
+      border: 1px solid $table-border;
+    }
+  }
+
+  &.hovered {
+    tbody {
+      tr:hover {
+        td {
+          background: $table-bg-hover;
+        }
+      }
+    }
+
+    .table-body {
+      .table-row:hover {
+        .table-cell {
+          background: $table-bg-hover;
+        }
+      }
+    }
+  }
+
+  &.condensed {
+    td, th, .table-cell {
+      @include em(padding, 4px);
+    }
+  }
+
+  &.centered {
+    td, th, .table-cell {
+      text-align: center;
+    }
+  }
+
+  &-responsive {
+    width: 100%;
+    min-height: .01%;
+    overflow: auto;
+  }
+}
+
+div.table {
+  &.bordered {
+    border: none;
+    border-left: 1px solid $table-border;
+
+    .table-cell {
+      border-right: 1px solid $table-border;
+    }
+  }
+}

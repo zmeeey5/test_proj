@@ -1,0 +1,69 @@
+// Container wrap
+
+.clearfix {
+  @extend %clearfix;
+}
+
+.container {
+  @extend %container;
+  @extend %clearfix;
+
+  &-full {
+    @extend %container;
+    @extend %clearfix;
+  }
+
+  @media (min-width: $small-screen) {
+    max-width: $small-container;
+  }
+
+  @media (min-width: $medium-screen) {
+    max-width: $medium-container;
+  }
+
+  @media (min-width: $large-screen) {
+    max-width: $large-container;
+  }
+
+  @media (min-width: $xlarge-screen) {
+    max-width: $xlarge-container;
+  }
+}
+
+.row {
+  @extend %clearfix;
+  margin-left: ($gutter-width / -2);
+  margin-right: ($gutter-width / -2);
+}
+
+.col {
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  position: relative;
+  box-sizing: border-box;
+  padding-left: ($gutter-width / 2);
+  padding-right: ($gutter-width / 2);
+}
+
+@media (max-width: $small-screen-down) {
+  .container {
+    padding-left: ($gutter-width / 2.5);
+    padding-right: ($gutter-width / 2.5);
+
+    &-full {
+      padding-left: ($gutter-width / 2.5);
+      padding-right: ($gutter-width / 2.5);
+    }
+  }
+
+  .row {
+    margin-left: ($gutter-width / -2.5);
+    margin-right: ($gutter-width / -2.5);
+  }
+
+  .col {
+    padding-left: ($gutter-width / 2.5);
+    padding-right: ($gutter-width / 2.5);
+  }
+}

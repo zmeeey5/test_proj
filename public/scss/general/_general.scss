@@ -1,0 +1,40 @@
+// Footer fixed to bottom
+html {
+  position: relative;
+  min-height: 100%;
+
+  body {
+    min-height: 1px;
+    height: 100%;
+    margin-bottom: var('footer-height', 'xsmall');
+  }
+
+  @media (min-width: $small-screen) {
+    body {
+      margin-bottom: var('footer-height', 'small');
+    }
+  }
+
+  @media (min-width: $medium-screen) {
+    body {
+      margin-bottom: var('footer-height', 'medium');
+    }
+  }
+
+  @media (min-width: $large-screen) {
+    body {
+      margin-bottom: var('footer-height', 'large');
+    }
+  }
+  
+  @media (min-width: $xlarge-screen) {
+    body {
+      margin-bottom: var('footer-height', 'xlarge');
+    }
+  }
+}
+
+// General classes for project
+.wrapper {
+  width: 100%;
+}

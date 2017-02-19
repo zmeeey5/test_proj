@@ -1,0 +1,13 @@
+// Fotns include
+$first: 1;
+
+@for $i from $first through $base-font-count {
+  @font-face {
+    font-family: $base-font-name;
+    font-style: normal;
+    font-weight: map-get($base-font-weight, $i);
+    src: local(map-get($base-font-local-1, $i)), local(map-get($base-font-local-2, $i)),
+    url('#{$font-path}#{$base-font-path}#{map-get($base-font-file, $i)}.woff2') format('woff2'),
+    url('#{$font-path}#{$base-font-path}#{map-get($base-font-file, $i)}.woff') format('woff');
+  }
+}

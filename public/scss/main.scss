@@ -1,0 +1,32 @@
+// Variables
+  @import "utilities/color";
+  @import "utilities/fonts_var";
+  @import "utilities/variables";
+  @import "utilities/mixins";
+  @import "utilities/placeholder";
+
+// Base
+  // @import "base/reset"; // uncomment if needed to use(not default template)
+  @import "base/normalize";
+  @import "base/fonts";
+  @import "base/typography";
+  @import "base/base";
+
+// Layouts
+  @import "layouts/container";
+  @import "layouts/grid";
+
+// General
+  @import "general/general";
+  // @import "general/forms"; // uncomment if needed to use(not default template)
+  // @import "general/button"; // uncomment if needed to use(not default template)
+  // @import "general/popup"; // uncomment if needed to use(not default template)
+  // @import "general/table"; // uncomment if needed to use(not default template)
+
+// Modules
+  @import "modules/header";
+  @import "modules/content";
+  @import "modules/footer";
+
+// State
+  @import "state/state";

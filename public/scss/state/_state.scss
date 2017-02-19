@@ -1,0 +1,162 @@
+// Classes state (for JS). Can use "!important"
+
+.hide {
+  display: none !important;
+
+  @media (max-width: $small-screen-down) {
+    &-xs {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: $small-screen) and (max-width: $medium-screen-down) {
+    &-s {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: $medium-screen) and (max-width: $large-screen-down) {
+    &-m {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: $large-screen) {
+    &-l {
+      display: none !important;
+    }
+  }
+}
+
+.show {
+  display: block !important;
+
+  &-xs, &-s, &-m, &-l {
+    display: none !important;
+  }
+
+  @media (max-width: $small-screen-down) {
+    &-xs {
+      display: block !important;
+    }
+  }
+
+  @media (min-width: $small-screen) and (max-width: $medium-screen-down) {
+    &-s {
+      display: block !important;
+    }
+  }
+
+  @media (min-width: $medium-screen) and (max-width: $large-screen-down) {
+    &-m {
+      display: block !important;
+    }
+  }
+
+  @media (min-width: $large-screen) {
+    &-l {
+      display: block !important;
+    }
+  }
+}
+
+.hidden {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+//
+//.align {
+//  &-left {
+//    text-align: left;
+//  }
+//
+//  &-right {
+//    text-align: right;
+//  }
+//
+//  &-center {
+//    text-align: center;
+//  }
+//
+//  &-justify {
+//    text-align: justify;
+//  }
+//}
+
+.float {
+  &-left {
+    float: left !important;
+  }
+
+  &-right {
+    float: right !important;
+  }
+}
+
+//.overflow {
+//  &-hidden {
+//    overflow: hidden !important;
+//  }
+//
+//  &-auto {
+//    overflow: auto !important;
+//  }
+//}
+
+//.no {
+//  &-padding {
+//    padding: 0 !important;
+//
+//    @media (max-width: $small-screen-down) {
+//      &-xs {
+//        padding: 0 !important;
+//      }
+//    }
+//
+//    @media (min-width: $small-screen) and (max-width: $medium-screen-down) {
+//      &-s {
+//        padding: 0 !important;
+//      }
+//    }
+//
+//    @media (min-width: $medium-screen) and (max-width: $large-screen-down) {
+//      &-m {
+//        padding: 0 !important;
+//      }
+//    }
+//
+//    @media (min-width: $large-screen) {
+//      &-l {
+//        padding: 0 !important;
+//      }
+//    }
+//  }
+//
+//  &-margin {
+//    margin: 0 !important;
+//
+//    @media (max-width: $small-screen-down) {
+//      &-xs {
+//        margin: 0 !important;
+//      }
+//    }
+//
+//    @media (min-width: $small-screen) and (max-width: $medium-screen-down) {
+//      &-s {
+//        margin: 0 !important;
+//      }
+//    }
+//
+//    @media (min-width: $medium-screen) and (max-width: $large-screen-down) {
+//      &-m {
+//        margin: 0 !important;
+//      }
+//    }
+//
+//    @media (min-width: $large-screen) {
+//      &-l {
+//        margin: 0 !important;
+//      }
+//    }
+//  }
+//}
