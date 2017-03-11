@@ -33,7 +33,7 @@ gulp.task('scss', function () {
 
 gulp.task('css', function () {
     return gulp.src(paths.css)
-        .pipe(cssnano())
+        // .pipe(cssnano())
         .pipe(postcss([ autoprefixer({ browsers: ['ie >= 10', 'last 4 versions', '> 1%'] }) ]))
         .pipe(gulp.dest('public/css'));
 });

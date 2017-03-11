@@ -38,3 +38,27 @@ html {
 .wrapper {
   width: 100%;
 }
+
+.social-list {
+
+  &:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .social-item {
+    float: left;
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fff;
+
+    + .social-item {
+      margin-left: 10px;
+    }
+  }
+
+  a {
+
+  }
+}

@@ -1,1 +1,43 @@
-// Header block style
+.nav-wrap {
+  background-color: #353434;
+
+  .logo {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .nav-list {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+
+.nav-list {
+  @extend %clearfix;
+}
+
+.main-header {
+  height: 100vh;
+}
+
+.header-background {
+  background-image: url(../img/backgroundDuck.png);
+}
+
+@media (min-width: 768px) {
+  .social-list {
+    float: right;
+  }
+
+  .logo, 
+  .nav-list-wrap,
+  .nav-item {
+    float: left;
+  }
+
+}
+
