@@ -3381,20 +3381,29 @@ html {
   background-color: #353434; }
   .nav-wrap .logo {
     color: #fff;
-    font-size: 20px; }
+    font-size: 20px;
+    padding: 25px;
+    margin: 0; }
   .nav-wrap .nav-list {
-    padding: 0;
+    padding: 25px;
     margin: 0;
     text-align: center;
     color: #fff;
     font-size: 16px;
     line-height: 28px; }
+    .nav-wrap .nav-list a {
+      margin-left: 23px; }
+
+.social-list {
+  padding: 5px 25px; }
+  .social-list .social-item {
+    margin-left: 25px; }
 
 .main-header {
   height: 100vh; }
 
 .header-background {
-  background-image: url(../img/backgroundDuck.png); }
+  background: red; }
 
 @media (min-width: 768px) {
   .social-list {
@@ -3422,6 +3431,15 @@ html {
   @media (min-width: 1200px) {
     .main-footer .main-footer {
       min-height: 60px; } }
+
+.container {
+  color: #000;
+  background: #000;
+  background: #000;
+  background: #000;
+  background: #000;
+  background: #000;
+  background: #000; }
 
 .hide {
   display: none !important; }

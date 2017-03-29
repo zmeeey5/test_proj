@@ -4,20 +4,32 @@
   .logo {
     color: #fff;
     font-size: 20px;
+    padding: 25px;
+    margin: 0;
   }
 
   .nav-list {
-    padding: 0;
+    padding: 25px;
     margin: 0;
     text-align: center;
     color: #fff;
     font-size: 16px;
     line-height: 28px;
+    a {
+      margin-left: 23px;
+    }
   }
 }
 
 .nav-list {
   @extend %clearfix;
+}
+
+.social-list {
+  padding: 5px 25px;
+  .social-item {
+    margin-left: 25px;
+  }
 }
 
 .main-header {
@@ -26,7 +38,8 @@
 }
 
 .header-background {
-  background-image: url(../img/backgroundDuck.png);
+  //background-image: url(../img/backgroundDuck.png);
+  background: red;
 }
 
 @media (min-width: 768px) {
