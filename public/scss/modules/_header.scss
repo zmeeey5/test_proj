@@ -1,31 +1,45 @@
 .nav-wrap {
   background-color: #353434;
+  .head-wrapper {
+    background: #fff;
+    .logo-wrapper {
+      float: left;
+      padding: 19px;
+      padding-right: 0;
+      margin: 0;
+      .logo-wrap {
+        background: #000;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding: 5px;
+      }
+      h1 {
+        color: #fff;
+        font-size: 13px;
 
-  .logo {
-    color: #fff;
-    font-size: 20px;
-    padding: 25px;
-    margin: 0;
-  }
+      }
+    }
 
-  .nav-list {
-    padding: 25px;
-    margin: 0;
-    text-align: center;
-    color: #fff;
-    font-size: 16px;
-    line-height: 28px;
-    a {
-      margin-left: 23px;
+    .nav-list {
+      padding: 25px;
+      margin: 0;
+      text-align: center;
+      color: #303030;
+      font-size: 16px;
+      line-height: 28px;
+      a {
+        margin-left: 23px;
+      }
     }
   }
 }
-
 .nav-list {
   @extend %clearfix;
 }
 
 .social-list {
+  background: #303030;
   padding: 5px 25px;
   .social-item {
     margin-left: 25px;
@@ -39,7 +53,7 @@
 
 .header-background {
   //background-image: url(../img/backgroundDuck.png);
-  background: red;
+  //background: red;
 }
 
 @media (min-width: 768px) {
