@@ -1,5 +1,5 @@
 .nav-wrap {
-  background-color: #353434;
+  //background-color: #353434;
   .head-wrapper {
     background: #fff;
     .logo-wrapper {
@@ -50,10 +50,29 @@
   height: 100vh;
 
 }
+.head-border {
+  border: 1px solid #e6e6e6;
+  width: 98%;
+}
 
 .header-background {
-  //background-image: url(../img/backgroundDuck.png);
-  //background: red;
+  background: red;
+
+  .background-wrap {
+    padding: 114px;
+    background: #fff;
+
+    .background-text-one {
+      height: 100%;
+      margin: 0;
+      text-align: center;
+      color: #303030;
+      background: #fff;
+      font-size: 72px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
 }
 
 @media (min-width: 768px) {

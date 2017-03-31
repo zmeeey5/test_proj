@@ -3377,33 +3377,31 @@ html {
   .social-list .social-item + .social-item {
     margin-left: 10px; }
 
-.nav-wrap {
-  background-color: #353434; }
-  .nav-wrap .head-wrapper {
-    background: #fff; }
-    .nav-wrap .head-wrapper .logo-wrapper {
-      float: left;
-      padding: 19px;
-      padding-right: 0;
-      margin: 0; }
-      .nav-wrap .head-wrapper .logo-wrapper .logo-wrap {
-        background: #000;
-        width: 40px;
-        height: 40px;
-        text-align: center;
-        padding: 5px; }
-      .nav-wrap .head-wrapper .logo-wrapper h1 {
-        color: #fff;
-        font-size: 13px; }
-    .nav-wrap .head-wrapper .nav-list {
-      padding: 25px;
-      margin: 0;
+.nav-wrap .head-wrapper {
+  background: #fff; }
+  .nav-wrap .head-wrapper .logo-wrapper {
+    float: left;
+    padding: 19px;
+    padding-right: 0;
+    margin: 0; }
+    .nav-wrap .head-wrapper .logo-wrapper .logo-wrap {
+      background: #000;
+      width: 40px;
+      height: 40px;
       text-align: center;
-      color: #303030;
-      font-size: 16px;
-      line-height: 28px; }
-      .nav-wrap .head-wrapper .nav-list a {
-        margin-left: 23px; }
+      padding: 5px; }
+    .nav-wrap .head-wrapper .logo-wrapper h1 {
+      color: #fff;
+      font-size: 13px; }
+  .nav-wrap .head-wrapper .nav-list {
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+    color: #303030;
+    font-size: 16px;
+    line-height: 28px; }
+    .nav-wrap .head-wrapper .nav-list a {
+      margin-left: 23px; }
 
 .social-list {
   background: #303030;
@@ -3413,6 +3411,25 @@ html {
 
 .main-header {
   height: 100vh; }
+
+.head-border {
+  border: 1px solid #e6e6e6;
+  width: 98%; }
+
+.header-background {
+  background: red; }
+  .header-background .background-wrap {
+    padding: 114px;
+    background: #fff; }
+    .header-background .background-wrap .background-text-one {
+      height: 100%;
+      margin: 0;
+      text-align: center;
+      color: #303030;
+      background: #fff;
+      font-size: 72px;
+      font-weight: 400;
+      text-transform: uppercase; }
 
 @media (min-width: 768px) {
   .social-list {
@@ -3442,8 +3459,8 @@ html {
       min-height: 60px; } }
 
 .container {
-  color: #000;
-  background: #000;
+  color: #fff;
+  background: #fff;
   background: #000;
   background: #000;
   background: #000;
