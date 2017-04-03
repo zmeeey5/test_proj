@@ -3434,6 +3434,7 @@ html {
     .header-background .background-wrap .background-text-two {
       padding-top: 34px;
       padding-bottom: 67px;
+      margin: 0;
       text-align: center;
       color: #606060;
       font-size: 24px;
