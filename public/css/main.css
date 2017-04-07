@@ -3409,9 +3409,6 @@ html {
   .social-list .social-item {
     margin-left: 25px; }
 
-.main-header {
-  height: 100vh; }
-
 .head-border {
   margin-left: 3px;
   border: 1px solid #e6e6e6;
@@ -3463,6 +3460,39 @@ html {
   .nav-list-wrap,
   .nav-item {
     float: left; } }
+
+.main-content {
+  padding: 50px; }
+
+.content-row {
+  padding: 25px; }
+
+.left-rec {
+  border: 1px solid black; }
+  .left-rec .section-wrapper {
+    height: 590px;
+    float: left;
+    border: 1px solid black; }
+  .left-rec .line {
+    height: 4px;
+    width: 34px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px solid black; }
+
+.right-rec {
+  border: 1px solid pink;
+  float: left; }
+  .right-rec .box-wrapper {
+    padding: 5px;
+    float: left;
+    border: 1px solid black;
+    height: 295px; }
+
+.inside-long-wrapper {
+  height: 590px;
+  float: right; }
 
 .main-footer {
   position: absolute;

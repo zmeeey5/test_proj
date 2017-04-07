@@ -1,1 +1,43 @@
-// Style for project content
+.main-content {
+  padding: 50px;
+}
+
+.content-row {
+  padding: 25px;
+}
+
+.left-rec {
+  border: 1px solid black;
+
+  .section-wrapper {
+    height: 590px;
+    float: left;
+    border: 1px solid black;
+
+  }
+
+  .line {
+    height: 4px;
+    width: 34px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 2px solid black;
+  }
+}
+.right-rec {
+  border: 1px solid pink;
+  float: left;
+
+  .box-wrapper {
+    padding: 5px;
+    float: left;
+    border: 1px solid black;
+    height: 295px;
+  }
+}
+
+.inside-long-wrapper {
+  height: 590px;
+  float: right;
+}
