@@ -3461,38 +3461,61 @@ html {
   .nav-item {
     float: left; } }
 
-.main-content {
-  padding: 50px; }
-
 .content-row {
-  padding: 25px; }
+  padding: 150px 32px; }
 
-.left-rec {
-  border: 1px solid black; }
-  .left-rec .section-wrapper {
+.left-rec .left-section-wrapper {
+  float: left; }
+  .left-rec .left-section-wrapper .left-section-title {
     height: 590px;
+    background: #d2d2d2;
+    padding: 30px; }
+    .left-rec .left-section-wrapper .left-section-title .line {
+      height: 4px;
+      width: 34px;
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-top: 2px solid black; }
+    .left-rec .left-section-wrapper .left-section-title .left-head-title {
+      margin: 0; }
+
+.left-rec .left-under-box-wrapper {
+  text-align: center;
+  height: 295px;
+  background: #c2c2c2; }
+  .left-rec .left-under-box-wrapper .icon-header {
+    margin: 0; }
+
+.middle-rec {
+  float: left; }
+  .middle-rec .box-wrapper {
     float: left;
-    border: 1px solid black; }
-  .left-rec .line {
-    height: 4px;
-    width: 34px;
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-top: 2px solid black; }
+    height: 295px;
+    padding: 25px; }
+  .middle-rec .dark-grey {
+    background: #dbdbdb; }
+  .middle-rec .sad-grey {
+    background: #cacaca; }
+  .middle-rec .darkest-grey {
+    background: #606060; }
+  .middle-rec .comfort-grey {
+    background: #bbbbbb; }
+  .middle-rec .alone-grey {
+    background: #d0d0d0; }
 
 .right-rec {
-  border: 1px solid pink;
   float: left; }
-  .right-rec .box-wrapper {
-    padding: 5px;
-    float: left;
-    border: 1px solid black;
-    height: 295px; }
-
-.inside-long-wrapper {
-  height: 590px;
-  float: right; }
+  .right-rec .right-section-title {
+    height: 295px;
+    background: #606060; }
+    .right-rec .right-section-title .right-head-title {
+      margin: 0; }
+  .right-rec .right-under-box-wrapper {
+    height: 590px;
+    background: #d7d7d7; }
+    .right-rec .right-under-box-wrapper .right-icon-header {
+      margin: 0; }
 
 .main-footer {
   position: absolute;
