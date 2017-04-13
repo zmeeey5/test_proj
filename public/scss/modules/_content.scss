@@ -7,33 +7,39 @@
 
 
 .left-rec {
-
+  float: left;
 
   .left-section-wrapper {
     float: left;
+    width: 100%;
 
     .left-section-title {
       height: 590px;
       background: #d2d2d2;
-      padding: 30px;
+      padding-top: 271px;
+      text-align: center;
 
-      .line {
-        height: 4px;
-        width: 34px;
-        display: inline-block;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-top: 2px solid black;
-      }
-
-      .left-head-title {
+      .left-head-title-one {
         margin: 0;
+        color: #ffffff;
+        line-height: 27px;
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 700;
       }
+
+      .left-head-title-two {
+        margin-top: 10px;
+        font-family: Georgia, serif;
+        font-size: 18px;
+        font-style: italic;
+        color: #ffffff;
+      }
+
     }
   }
 
   .left-under-box-wrapper {
-    text-align: center;
     height: 295px;
     background: #c2c2c2;
 
