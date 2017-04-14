@@ -3498,7 +3498,7 @@ html {
   .middle-rec .box-wrapper {
     float: left;
     height: 295px;
-    padding: 25px; }
+    padding: 30px; }
   .middle-rec .dark-grey {
     background: #dbdbdb; }
   .middle-rec .sad-grey {
@@ -3507,6 +3507,42 @@ html {
     background: #606060; }
   .middle-rec .comfort-grey {
     background: #bbbbbb; }
+    .middle-rec .comfort-grey .box-left-line {
+      width: 22px;
+      height: 1px;
+      margin-top: 73px;
+      margin-left: 63px;
+      background-color: #ffffff;
+      float: left; }
+    .middle-rec .comfort-grey .box-right-line {
+      width: 22px;
+      height: 1px;
+      margin-top: 73px;
+      background-color: #ffffff;
+      float: left; }
+    .middle-rec .comfort-grey .box-twitter-text-wrapper {
+      float: left;
+      text-align: center;
+      color: #ffffff;
+      font-family: Georgia, serif;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 19px; }
+      .middle-rec .comfort-grey .box-twitter-text-wrapper .id-info {
+        color: #ffffff;
+        font-family: Lato, serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
+        margin: 0; }
+    .middle-rec .comfort-grey .social-twitter {
+      float: left;
+      width: 50px;
+      text-align: center;
+      margin-top: 48px; }
+      .middle-rec .comfort-grey .social-twitter #sp-twitter {
+        font-size: 35px;
+        color: #ffffff; }
   .middle-rec .alone-grey {
     background: #d0d0d0; }
 
