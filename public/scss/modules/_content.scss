@@ -5,135 +5,122 @@
   padding: 150px 32px;
 }
 
+.box-wrapper {
+  float: left;
+  width: 25%;
+  height: 295px;
+  padding: 30px;
+}
 
-.left-rec {
+.left-long-box {
+  background-color:  #d2d2d2;
+  width: 25%;
+  height: 590px;
   float: left;
 
-  .left-section-wrapper {
-    float: left;
-    width: 100%;
-
-    .left-section-title {
-      height: 590px;
-      background: #d2d2d2;
-      padding-top: 271px;
-      text-align: center;
-
-      .left-head-title-one {
-        margin: 0;
-        color: #ffffff;
-        line-height: 27px;
-        text-transform: uppercase;
-        font-size: 24px;
-        font-weight: 700;
-      }
-
-      .left-head-title-two {
-        margin-top: 10px;
-        font-family: Georgia, serif;
-        font-size: 18px;
-        font-style: italic;
-        color: #ffffff;
-      }
-
+    .left-head-title-one {
+      margin: 0;
+      color: #ffffff;
+      line-height: 27px;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 700;
     }
+
+    .left-head-title-two {
+      margin-top: 10px;
+      font-family: Georgia, serif;
+      font-size: 18px;
+      font-style: italic;
+      color: #ffffff;
+    }
+
   }
 
-  .left-under-box-wrapper {
-    height: 295px;
-    background: #c2c2c2;
+.box-two {
+  background-color: #bbbbbb;
+}
 
-    .icon-header {
+.box-three {
+  background: #dbdbdb;
+}
+
+.box-four {
+  background: #cacaca;
+}
+
+.box-five {
+  background: #bbbbbb;
+
+  .box-left-line {
+    width: 22px;
+    height: 1px;
+    margin-top: 73px;
+    margin-left: 63px;
+    background-color: #ffffff;
+    float: left;
+  }
+
+  .box-right-line {
+    width: 22px;
+    height: 1px;
+    margin-top: 73px;
+    background-color: #ffffff;
+    float: left;
+  }
+
+  .box-twitter-text-wrapper {
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px;
+    .id-info {
+      color: #ffffff;
+      font-family: Lato, serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 19px;
       margin: 0;
     }
   }
-}
 
-
-.middle-rec {
-  float: left;
-
-  .box-wrapper {
+  .social-twitter {
     float: left;
-    height: 295px;
-    padding: 30px;
-  }
-
-  .dark-grey {
-    background: #dbdbdb;
-  }
-
-  .sad-grey {
-    background: #cacaca;
-  }
-
-  .darkest-grey {
-    background: #606060;
-  }
-
-  .comfort-grey {
-    background: #bbbbbb;
-
-    .box-left-line {
-      width: 22px;
-      height: 1px;
-      margin-top: 73px;
-      margin-left: 63px;
-      background-color: #ffffff;
-      float: left;
-    }
-
-    .box-right-line {
-      width: 22px;
-      height: 1px;
-      margin-top: 73px;
-      background-color: #ffffff;
-      float: left;
-    }
-    
-    .box-twitter-text-wrapper {
-      float: left;
-      text-align: center;
+    width: 50px;
+    text-align: center;
+    margin-top: 48px;
+    #sp-twitter {
+      font-size: 35px;
       color: #ffffff;
-      font-family: Georgia, serif;
-      font-size: 14px;
-      font-style: italic;
-      line-height: 19px;
-      .id-info {
-        color: #ffffff;
-        font-family: Lato, serif;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 19px;
-        margin: 0;
-      }
-    }
-
-    .social-twitter {
-      float: left;
-      width: 50px;
-      text-align: center;
-      margin-top: 48px;
-      #sp-twitter {
-        font-size: 35px;
-        color: #ffffff;
-      }
     }
   }
+}
 
-  .alone-grey {
-    background: #d0d0d0;
-  }
+.box-ten {
+  background-color:  #d0d0d0;
+}
 
+.box-seven {
+  background: #d0d0d0;
+}
 
+.box-eight {
+  background-color:  #606060;
 
 }
 
-.right-rec {
-  float: left;
-  .right-section-wrapper {
+.box-nine {
+  background-color:  #606060;
+}
 
-  }
+.right-long-box {
+  float: right;
+  width: 25%;
+  height: 590px;
+  background-color:  #d7d7d7;
 
   .right-section-title {
     height: 295px;
