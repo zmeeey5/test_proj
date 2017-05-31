@@ -4,7 +4,25 @@
 .content-row {
   padding: 150px 32px;
 }
+//repeat text
+.box-same-text-one {
+  margin: 0;
+  color: #ffffff;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
 
+.box-same-text-two {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+}
+//END
 .box-wrapper {
   float: left;
   width: 25%;
@@ -19,21 +37,12 @@
   float: left;
   text-align: center;
 
-    .left-head-title-one {
-      margin-top: 271px;
-      color: #ffffff;
-      line-height: 27px;
-      text-transform: uppercase;
-      font-size: 24px;
-      font-weight: 700;
+    .box-same-text-one {
+      margin-top: 261px;
     }
 
-    .left-head-title-two {
+    .box-same-text-two {
       margin-top: 10px;
-      font-family: Georgia, serif;
-      font-size: 18px;
-      font-style: italic;
-      color: #ffffff;
     }
 
   }
@@ -44,7 +53,7 @@
   .box-left-line {
     width: 22px;
     height: 1px;
-    margin-top: 65px;
+    margin-top: 56px;
     margin-left: 63px;
     background-color: #ffffff;
     float: left;
@@ -53,7 +62,7 @@
   .box-right-line {
     width: 22px;
     height: 1px;
-    margin-top: 65px;
+    margin-top: 56px;
     background-color: #ffffff;
     float: left;
   }
@@ -62,7 +71,7 @@
     float: left;
     width: 50px;
     text-align: center;
-    margin-top: 43px;
+    margin-top: 33px;
     #sp-twitter {
       font-size: 35px;
       color: #ffffff;
@@ -78,7 +87,7 @@
     font-style: italic;
     line-height: 19px;
     .box-twitter-parag{
-      margin-top: 16px;
+      margin-top: 6px;
     }
     .id-info {
       color: #ffffff;
@@ -91,11 +100,11 @@
   }
 }
 
-  .box-three {
+.box-three {
     background: #dbdbdb;
   }
 
-  .box-four {
+.box-four {
     background-color: #606060;
     text-align: center;
     padding: 0;
@@ -106,73 +115,137 @@
       height: 13px;
     }
 
-    .box-four-text-one {
-      color: #ffffff;
-      line-height: 27px;
-      text-transform: uppercase;
-      font-family: Georgia, serif;
-      font-size: 24px;
-      font-weight: 700;
+    .box-same-text-one {
       margin-top: 15px;
     }
 
-    .box-four-tex-two {
-      color: #ffffff;
-      font-family: Georgia, serif;
-      text-transform: uppercase;
-      font-size: 18px;
-      font-style: italic;
-      margin-top: 15px;
+    .box-same-text-two {
+      margin-top: 10px;
     }
   }
 
-  .box-five {
+.box-five {
     background-color: #cacaca;
+    text-align: center;
+    padding: 0;
+
+    .box-same-text-one {
+      margin-top: 128px;
+    }
+
+    .box-same-text-two {
+      margin-top: 6px;
+    }
   }
 
-  .box-six {
+.box-six {
     background-color: #bbbbbb;
-  }
-  .box-ten {
-    background-color: #d0d0d0;
-  }
+    text-align: center;
 
-  .box-seven {
-    background-color: #c2c2c2;
-  }
+    .box-left-line {
+      width: 22px;
+      height: 1px;
+      margin-top: 56px;
+      margin-left: 63px;
+      background-color: #ffffff;
+      float: left;
+    }
 
-  .box-eight {
-    background-color: #c2c2c2;
+    .box-right-line {
+      width: 22px;
+      height: 1px;
+      margin-top: 56px;
+      background-color: #ffffff;
+      float: left;
+    }
 
-  }
-
-  .box-nine {
-    background-color: #606060;
-  }
-
-  .right-long-box {
-    float: right;
-    width: 25%;
-    height: 590px;
-    background-color: #d7d7d7;
-
-    .right-section-title {
-      height: 295px;
-      background: #606060;
-
-      .right-head-title {
-        margin: 0;
+    .social-twitter {
+      float: left;
+      width: 50px;
+      text-align: center;
+      margin-top: 33px;
+      #sd-twitter {
+        font-size: 35px;
+        color: #ffffff;
       }
     }
 
-    .right-under-box-wrapper {
-      height: 590px;
-      background: #d7d7d7;
-
-      .right-icon-header {
+    .box-twitter-text-wrapper {
+      float: left;
+      text-align: center;
+      color: #ffffff;
+      font-family: Georgia, serif;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 19px;
+      .box-twitter-parag{
+        margin-top: 6px;
+      }
+      .id-info {
+        color: #ffffff;
+        font-family: Lato, serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
         margin: 0;
       }
     }
   }
+
+.right-long-box {
+  float: right;
+  text-align: center;
+  width: 25%;
+  height: 590px;
+  background-color: #d7d7d7;
+
+  .box-same-text-one {
+    margin-top: 259px;
+  }
+
+  .box-same-text-two {
+    margin-top: 10px;
+  }
+
+
+}
+
+.box-eight {
+    background-color: #c2c2c2;
+
+  }
+
+.box-nine {
+  background-color: #606060;
+  text-align: center;
+  padding: 0;
+
+  .arrow {
+    margin-top: 108px;
+    width: 27px;
+    height: 13px;
+  }
+
+  .box-same-text-one {
+     margin-top: 15px;
+   }
+  .box-same-text-two {
+    margin-top: 10px;
+  }
+}
+
+.box-ten {
+  background-color: #d0d0d0;
+  padding: 0;
+  text-align: center;
+
+  .box-same-text-one {
+    margin-top: 128px;
+  }
+
+  .box-same-text-two {
+    margin-top: 15px;
+  }
+}
 
 

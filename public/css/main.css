@@ -3464,6 +3464,22 @@ html {
 .content-row {
   padding: 150px 32px; }
 
+.box-same-text-one {
+  margin: 0;
+  color: #ffffff;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700; }
+
+.box-same-text-two {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0; }
+
 .box-wrapper {
   float: left;
   width: 25%;
@@ -3476,40 +3492,31 @@ html {
   height: 590px;
   float: left;
   text-align: center; }
-  .left-long-box .left-head-title-one {
-    margin-top: 271px;
-    color: #ffffff;
-    line-height: 27px;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 700; }
-  .left-long-box .left-head-title-two {
-    margin-top: 10px;
-    font-family: Georgia, serif;
-    font-size: 18px;
-    font-style: italic;
-    color: #ffffff; }
+  .left-long-box .box-same-text-one {
+    margin-top: 261px; }
+  .left-long-box .box-same-text-two {
+    margin-top: 10px; }
 
 .box-two {
   background-color: #bbbbbb; }
   .box-two .box-left-line {
     width: 22px;
     height: 1px;
-    margin-top: 65px;
+    margin-top: 56px;
     margin-left: 63px;
     background-color: #ffffff;
     float: left; }
   .box-two .box-right-line {
     width: 22px;
     height: 1px;
-    margin-top: 65px;
+    margin-top: 56px;
     background-color: #ffffff;
     float: left; }
   .box-two .social-twitter {
     float: left;
     width: 50px;
     text-align: center;
-    margin-top: 43px; }
+    margin-top: 33px; }
     .box-two .social-twitter #sp-twitter {
       font-size: 35px;
       color: #ffffff; }
@@ -3522,7 +3529,7 @@ html {
     font-style: italic;
     line-height: 19px; }
     .box-two .box-twitter-text-wrapper .box-twitter-parag {
-      margin-top: 16px; }
+      margin-top: 6px; }
     .box-two .box-twitter-text-wrapper .id-info {
       color: #ffffff;
       font-family: Lato, serif;
@@ -3542,55 +3549,97 @@ html {
     margin-top: 108px;
     width: 27px;
     height: 13px; }
-  .box-four .box-four-text-one {
-    color: #ffffff;
-    line-height: 27px;
-    text-transform: uppercase;
-    font-family: Georgia, serif;
-    font-size: 24px;
-    font-weight: 700;
+  .box-four .box-same-text-one {
     margin-top: 15px; }
-  .box-four .box-four-tex-two {
-    color: #ffffff;
-    font-family: Georgia, serif;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-style: italic;
-    margin-top: 15px; }
+  .box-four .box-same-text-two {
+    margin-top: 10px; }
 
 .box-five {
-  background-color: #cacaca; }
+  background-color: #cacaca;
+  text-align: center;
+  padding: 0; }
+  .box-five .box-same-text-one {
+    margin-top: 128px; }
+  .box-five .box-same-text-two {
+    margin-top: 6px; }
 
 .box-six {
-  background-color: #bbbbbb; }
+  background-color: #bbbbbb;
+  text-align: center; }
+  .box-six .box-left-line {
+    width: 22px;
+    height: 1px;
+    margin-top: 56px;
+    margin-left: 63px;
+    background-color: #ffffff;
+    float: left; }
+  .box-six .box-right-line {
+    width: 22px;
+    height: 1px;
+    margin-top: 56px;
+    background-color: #ffffff;
+    float: left; }
+  .box-six .social-twitter {
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin-top: 33px; }
+    .box-six .social-twitter #sd-twitter {
+      font-size: 35px;
+      color: #ffffff; }
+  .box-six .box-twitter-text-wrapper {
+    float: left;
+    text-align: center;
+    color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 19px; }
+    .box-six .box-twitter-text-wrapper .box-twitter-parag {
+      margin-top: 6px; }
+    .box-six .box-twitter-text-wrapper .id-info {
+      color: #ffffff;
+      font-family: Lato, serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 19px;
+      margin: 0; }
 
-.box-ten {
-  background-color: #d0d0d0; }
-
-.box-seven {
-  background-color: #c2c2c2; }
+.right-long-box {
+  float: right;
+  text-align: center;
+  width: 25%;
+  height: 590px;
+  background-color: #d7d7d7; }
+  .right-long-box .box-same-text-one {
+    margin-top: 259px; }
+  .right-long-box .box-same-text-two {
+    margin-top: 10px; }
 
 .box-eight {
   background-color: #c2c2c2; }
 
 .box-nine {
-  background-color: #606060; }
+  background-color: #606060;
+  text-align: center;
+  padding: 0; }
+  .box-nine .arrow {
+    margin-top: 108px;
+    width: 27px;
+    height: 13px; }
+  .box-nine .box-same-text-one {
+    margin-top: 15px; }
+  .box-nine .box-same-text-two {
+    margin-top: 10px; }
 
-.right-long-box {
-  float: right;
-  width: 25%;
-  height: 590px;
-  background-color: #d7d7d7; }
-  .right-long-box .right-section-title {
-    height: 295px;
-    background: #606060; }
-    .right-long-box .right-section-title .right-head-title {
-      margin: 0; }
-  .right-long-box .right-under-box-wrapper {
-    height: 590px;
-    background: #d7d7d7; }
-    .right-long-box .right-under-box-wrapper .right-icon-header {
-      margin: 0; }
+.box-ten {
+  background-color: #d0d0d0;
+  padding: 0;
+  text-align: center; }
+  .box-ten .box-same-text-one {
+    margin-top: 128px; }
+  .box-ten .box-same-text-two {
+    margin-top: 15px; }
 
 .main-footer {
   position: absolute;
