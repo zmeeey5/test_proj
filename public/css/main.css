@@ -3474,9 +3474,10 @@ html {
   background-color: #d2d2d2;
   width: 25%;
   height: 590px;
-  float: left; }
+  float: left;
+  text-align: center; }
   .left-long-box .left-head-title-one {
-    margin: 0;
+    margin-top: 271px;
     color: #ffffff;
     line-height: 27px;
     text-transform: uppercase;
@@ -3491,29 +3492,28 @@ html {
 
 .box-two {
   background-color: #bbbbbb; }
-
-.box-three {
-  background: #dbdbdb; }
-
-.box-four {
-  background: #cacaca; }
-
-.box-five {
-  background: #bbbbbb; }
-  .box-five .box-left-line {
+  .box-two .box-left-line {
     width: 22px;
     height: 1px;
-    margin-top: 73px;
+    margin-top: 65px;
     margin-left: 63px;
     background-color: #ffffff;
     float: left; }
-  .box-five .box-right-line {
+  .box-two .box-right-line {
     width: 22px;
     height: 1px;
-    margin-top: 73px;
+    margin-top: 65px;
     background-color: #ffffff;
     float: left; }
-  .box-five .box-twitter-text-wrapper {
+  .box-two .social-twitter {
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin-top: 43px; }
+    .box-two .social-twitter #sp-twitter {
+      font-size: 35px;
+      color: #ffffff; }
+  .box-two .box-twitter-text-wrapper {
     float: left;
     text-align: center;
     color: #ffffff;
@@ -3521,30 +3521,57 @@ html {
     font-size: 14px;
     font-style: italic;
     line-height: 19px; }
-    .box-five .box-twitter-text-wrapper .id-info {
+    .box-two .box-twitter-text-wrapper .box-twitter-parag {
+      margin-top: 16px; }
+    .box-two .box-twitter-text-wrapper .id-info {
       color: #ffffff;
       font-family: Lato, serif;
       font-size: 14px;
       font-weight: 700;
       line-height: 19px;
       margin: 0; }
-  .box-five .social-twitter {
-    float: left;
-    width: 50px;
-    text-align: center;
-    margin-top: 48px; }
-    .box-five .social-twitter #sp-twitter {
-      font-size: 35px;
-      color: #ffffff; }
+
+.box-three {
+  background: #dbdbdb; }
+
+.box-four {
+  background-color: #606060;
+  text-align: center;
+  padding: 0; }
+  .box-four .arrow {
+    margin-top: 108px;
+    width: 27px;
+    height: 13px; }
+  .box-four .box-four-text-one {
+    color: #ffffff;
+    line-height: 27px;
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px; }
+  .box-four .box-four-tex-two {
+    color: #ffffff;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 15px; }
+
+.box-five {
+  background-color: #cacaca; }
+
+.box-six {
+  background-color: #bbbbbb; }
 
 .box-ten {
   background-color: #d0d0d0; }
 
 .box-seven {
-  background: #d0d0d0; }
+  background-color: #c2c2c2; }
 
 .box-eight {
-  background-color: #606060; }
+  background-color: #c2c2c2; }
 
 .box-nine {
   background-color: #606060; }

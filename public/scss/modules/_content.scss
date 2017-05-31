@@ -17,9 +17,10 @@
   width: 25%;
   height: 590px;
   float: left;
+  text-align: center;
 
     .left-head-title-one {
-      margin: 0;
+      margin-top: 271px;
       color: #ffffff;
       line-height: 27px;
       text-transform: uppercase;
@@ -39,23 +40,11 @@
 
 .box-two {
   background-color: #bbbbbb;
-}
-
-.box-three {
-  background: #dbdbdb;
-}
-
-.box-four {
-  background: #cacaca;
-}
-
-.box-five {
-  background: #bbbbbb;
 
   .box-left-line {
     width: 22px;
     height: 1px;
-    margin-top: 73px;
+    margin-top: 65px;
     margin-left: 63px;
     background-color: #ffffff;
     float: left;
@@ -64,9 +53,20 @@
   .box-right-line {
     width: 22px;
     height: 1px;
-    margin-top: 73px;
+    margin-top: 65px;
     background-color: #ffffff;
     float: left;
+  }
+
+  .social-twitter {
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin-top: 43px;
+    #sp-twitter {
+      font-size: 35px;
+      color: #ffffff;
+    }
   }
 
   .box-twitter-text-wrapper {
@@ -77,6 +77,9 @@
     font-size: 14px;
     font-style: italic;
     line-height: 19px;
+    .box-twitter-parag{
+      margin-top: 16px;
+    }
     .id-info {
       color: #ffffff;
       font-family: Lato, serif;
@@ -86,57 +89,90 @@
       margin: 0;
     }
   }
+}
 
-  .social-twitter {
-    float: left;
-    width: 50px;
+  .box-three {
+    background: #dbdbdb;
+  }
+
+  .box-four {
+    background-color: #606060;
     text-align: center;
-    margin-top: 48px;
-    #sp-twitter {
-      font-size: 35px;
+    padding: 0;
+    
+    .arrow {
+      margin-top: 108px;
+      width: 27px;
+      height: 13px;
+    }
+
+    .box-four-text-one {
       color: #ffffff;
+      line-height: 27px;
+      text-transform: uppercase;
+      font-family: Georgia, serif;
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 15px;
     }
-  }
-}
 
-.box-ten {
-  background-color:  #d0d0d0;
-}
-
-.box-seven {
-  background: #d0d0d0;
-}
-
-.box-eight {
-  background-color:  #606060;
-
-}
-
-.box-nine {
-  background-color:  #606060;
-}
-
-.right-long-box {
-  float: right;
-  width: 25%;
-  height: 590px;
-  background-color:  #d7d7d7;
-
-  .right-section-title {
-    height: 295px;
-    background: #606060;
-
-    .right-head-title {
-      margin: 0;
+    .box-four-tex-two {
+      color: #ffffff;
+      font-family: Georgia, serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-style: italic;
+      margin-top: 15px;
     }
   }
 
-  .right-under-box-wrapper {
+  .box-five {
+    background-color: #cacaca;
+  }
+
+  .box-six {
+    background-color: #bbbbbb;
+  }
+  .box-ten {
+    background-color: #d0d0d0;
+  }
+
+  .box-seven {
+    background-color: #c2c2c2;
+  }
+
+  .box-eight {
+    background-color: #c2c2c2;
+
+  }
+
+  .box-nine {
+    background-color: #606060;
+  }
+
+  .right-long-box {
+    float: right;
+    width: 25%;
     height: 590px;
-    background: #d7d7d7;
+    background-color: #d7d7d7;
 
-    .right-icon-header {
-      margin: 0;
+    .right-section-title {
+      height: 295px;
+      background: #606060;
+
+      .right-head-title {
+        margin: 0;
+      }
+    }
+
+    .right-under-box-wrapper {
+      height: 590px;
+      background: #d7d7d7;
+
+      .right-icon-header {
+        margin: 0;
+      }
     }
   }
-}
+
+
