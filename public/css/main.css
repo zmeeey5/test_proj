@@ -3442,7 +3442,7 @@ html {
     width: 229px;
     height: 60px;
     border: 1px solid #959595; }
-    .header-background .background-wrap .rectangle-button .rectangele-text {
+    .header-background .background-wrap .rectangle-button .rectangle-text {
       margin: 0;
       color: #303030;
       text-align: center;
@@ -3460,7 +3460,7 @@ html {
     float: left; } }
 
 .main-content {
-  padding-bottom: 560px;
+  padding-bottom: 590px;
   height: 100%; }
 
 .content-row {
@@ -3731,27 +3731,27 @@ html {
   height: 178px;
   border-right: 1px solid #d2d2d2;
   float: left;
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 .ending-box-text {
   color: #303030;
   font-family: Lato, serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 35px;
   text-transform: uppercase;
   padding: 0;
-  margin: 0; }
+  margin-top: 5px; }
 
 .ending-list {
   text-align: left;
-  padding-bottom: 50px;
   padding-left: 0;
   padding-top: 0; }
   .ending-list li {
     color: #303030;
     font-family: Lato, serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 23px; }
 
@@ -3760,16 +3760,29 @@ html {
   height: 178px;
   float: left;
   margin-top: 40px; }
-
-.ending-social-text {
-  color: #303030;
-  font-family: Lato, serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 23px;
-  padding: 15px;
-  padding-top: 0;
-  margin: 0; }
+  .ending-box-border .ending-social-text {
+    color: #303030;
+    font-family: Lato, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 15px;
+    padding-top: 0;
+    margin: 0; }
+  .ending-box-border .social-icons {
+    text-align: center;
+    margin: 0;
+    padding-left: 5px; }
+    .ending-box-border .social-icons .social-icon {
+      float: left;
+      margin-left: 10px;
+      padding: 4px;
+      font-size: 18px;
+      width: 32px;
+      height: 32px;
+      border: 1px solid #606060; }
+      .ending-box-border .social-icons .social-icon .fa {
+        color: #606060; }
 
 .padding {
   padding-left: 15px; }

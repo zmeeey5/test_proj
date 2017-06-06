@@ -120,22 +120,23 @@
   border-right: 1px solid #d2d2d2;
   float: left;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .ending-box-text {
   color: #303030;
   font-family: Lato, serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 35px;
   text-transform: uppercase;
   padding: 0;
-  margin: 0;
+  margin-top: 5px;
 }
 
 .ending-list {
   text-align: left;
-  padding-bottom: 50px;
+  //padding-bottom: 50px;
   padding-left: 0;
   padding-top: 0;
 
@@ -143,7 +144,7 @@
   li {
     color: #303030;
     font-family: Lato, serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 23px;
   }
@@ -154,7 +155,7 @@
   height: 178px;
   float: left;
   margin-top: 40px;
-}
+
   .ending-social-text {
     color: #303030;
     font-family: Lato, serif;
@@ -165,6 +166,28 @@
     padding-top: 0;
     margin: 0;
   }
+
+  .social-icons {
+    text-align: center;
+    margin: 0;
+    padding-left: 5px;
+
+    .social-icon {
+      float: left;
+      margin-left: 10px;
+      padding: 4px;
+      font-size: 18px;
+      width: 32px;
+      height: 32px;
+      border: 1px solid #606060;
+
+      .fa {
+        color: #606060;
+      }
+    }
+  }
+}
+
 .padding {
   padding-left: 15px;
 }
